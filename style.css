@@ -1,0 +1,153 @@
+*{
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+}
+
+#Logo{
+   margin: 75px;
+   margin-top: 50px;
+}
+
+
+#Título-menusuperior{
+   margin-left: 150px;
+   margin-top: 50px;
+    color: aliceblue;
+}
+#Texto-menusuperior{
+   margin-left: 150px;
+   margin-top: 35px;
+   padding-bottom: 100px;
+
+    color: aliceblue;
+}
+#menusuperior{
+    background-image: url(imagens/logo-fundo.svg);
+    background-color: rgb(7, 7, 7);
+
+}
+
+#informacional-menuinferior{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 75px;
+    padding: 25px;
+}
+
+
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-left: 100px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+    
+}
+
+#descricaodovideo{
+   margin: 50px 225px 0px 0px;
+    
+}
+
+#titulovideo{
+    color: #247BA0;
+    
+}
+
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+
+}
+
+#titulo-carrossel{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+
+#seta-esquerda{
+    display: none;
+}
+
+
+#bruna{
+    display: none;
+}
+.seta{
+    margin-top: 55%;
+    margin-right: 100%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+#titulo-formulario{
+    color:#383838;
+    margin-top: 35px;
+}
+
+input{
+    background: #EAECE5;
+    width: 413px;
+    height: 53px;
+    margin-top: 40px;
+    opacity: 0px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+button{
+    background: #247BA0;
+    width: 350px;
+    height: 53px;
+    margin-top: 35px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #4fb5e0;
+    color: #EAECE5;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #1c2c33 ;
+    transition-duration: 0.5s;
+}
